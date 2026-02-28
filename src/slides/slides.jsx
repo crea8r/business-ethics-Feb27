@@ -1,3 +1,4 @@
+import SlidePreWorkshop from './SlidePreWorkshop.jsx'
 import Slide01 from './Slide01.jsx'
 import Slide02 from './Slide02.jsx'
 import Slide03 from './Slide03.jsx'
@@ -26,8 +27,10 @@ import Slide25 from './Slide25.jsx'
 import Slide26 from './Slide26.jsx'
 import Slide27 from './Slide27.jsx'
 import Slide28 from './Slide28.jsx'
+import SlidePostWorkshop from './SlidePostWorkshop.jsx'
 
 const slides = [
+  { id: 'slide-pre', title: 'Pre-Workshop Questions', component: SlidePreWorkshop },
   { id: 'slide-01', title: 'Welcome', component: Slide01 },
   { id: 'slide-02', title: 'What is a Business?', component: Slide02 },
   { id: 'slide-03', title: 'Two Ways to Capture Money', component: Slide03 },
@@ -56,6 +59,7 @@ const slides = [
   { id: 'slide-26', title: 'Discussion Question 1', component: Slide26 },
   { id: 'slide-27', title: 'Discussion Question 2', component: Slide27 },
   { id: 'slide-28', title: 'The Mirror — Closing', component: Slide28 },
+  { id: 'slide-post', title: 'Post-Workshop Questions', component: SlidePostWorkshop },
 ]
 
 export default slides
